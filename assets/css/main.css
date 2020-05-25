@@ -2698,30 +2698,26 @@ input, select, textarea {
 
 				.tiles article > a:hover {
 					color: #ffffff !important;
-					
-					background: rgb(0,0,0);
-					background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.4009978991596639) 29%, rgba(0,0,0,0) 60%);
-					background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.4009978991596639) 29%, rgba(0,0,0,0) 60%);
-					background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.4009978991596639) 29%, rgba(0,0,0,0) 60%);
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 				}
 
 				.tiles article > a h2 {
-					margin: 0;
+					margin-top: 2em;
 					font-size: 1.25em;
 					padding-bottom: 1em;
+					padding-top: 1em;
 				}
 
 				.tiles article > a .content {
-					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
-					transition: max-height 0.5s ease, opacity 0.5s ease;
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
+					background: rgb(38,38,38);
+					background: -moz-linear-gradient(0deg, rgba(38,38,38,1) 15%, rgba(38,38,38,0.20211834733893552) 70%, rgba(38,38,38,0) 100%);
+					background: -webkit-linear-gradient(0deg, rgba(38,38,38,1) 15%, rgba(38,38,38,0.20211834733893552) 70%, rgba(38,38,38,0) 100%);
+					background: linear-gradient(0deg, rgba(38,38,38,1) 15%, rgba(38,38,38,0.20211834733893552) 70%, rgba(38,38,38,0) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endColorstr="#262626",GradientType=1);
 				}
 
 					.tiles article > a .content > :last-child {
@@ -3187,7 +3183,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 0 0 2.5em 0 ;
-		background-color: #282528;
+		background-color: #262626;
 	}
 
 		#footer > .inner {
