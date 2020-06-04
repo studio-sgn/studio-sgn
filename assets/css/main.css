@@ -3106,15 +3106,48 @@ input, select, textarea {
 
 		}
 
-	#header2 {
-		padding: 3em 0 3em 0;
-		margin: 0 0 2.5em 0;
-		background-image: url("../../images/full-wave-bg - purple.png");
-		background-size: cover;
+	#full-bg {
+		margin: 2.5em 0 2.5em 0;
+		min-height: 100vh; 
+	}
+	
+	#full-bg.desk {
+		background: url("../../images/Desk.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
-
+	
+	#full-bg.skills {
+		background: url("../../images/Skills.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 50vh; 
+		background-attachment: fixed;
+	}
+	
+		@media screen and (max-width: 980px) {
+			#full-bg {
+					min-height: 50vh; 
+				}
+				
+			#full-bg.skills {
+					background-attachment: inherit;
+				}
+		}
+		
+		@media screen and (max-width: 736px) {
+			#full-bg {
+					min-height: 30vh; 
+				}
+				
+			#full-bg.skills {
+					background-attachment: inherit;
+					background-position: left;
+				}
+		}
+		
 /* Menu */
 
 	#wrapper {
