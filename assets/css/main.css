@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+/*
 body::-webkit-scrollbar {
     width: 0.5em;
 }
@@ -40,15 +40,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #3d1c60;
 }
-
-body::-webkit-scrollbar {
-    width: 0.5em;
-}
-
--webkit-scrollbar-thumb {
-  background-color: #3d1c60;
-}
-
+*/
 ol, ul {
 	list-style: none;
 }
