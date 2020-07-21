@@ -3139,6 +3139,27 @@ input, select, textarea {
 					background-position: left;
 				}
 		}
+	
+	#blob.top {
+		background: url("../../images/TopBlob.png");
+		background-position: left;
+		background-repeat: no-repeat;
+		height: 320px;
+		margin-top: -2.5em;
+		margin-bottom: -300px;
+		}
+	
+	#blob.bottom {
+		background: url("../../images/BottomBlob.png");
+		background-position-x: right;		
+		background-position-y: right;
+		background-repeat: no-repeat;
+		height: 210px;
+		margin-bottom: -2.5em;
+		margin-top: -100px;
+		}
+		
+	}
 		
 /* Menu */
 
