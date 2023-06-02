@@ -2437,6 +2437,18 @@ input, select, textarea {
 			line-height: normal;
 		}
 		
+		.title3 {
+			text-align: left;
+			max-width: 100%;
+		}
+		
+		.title3 p {
+			font-size: 1.25em;
+			margin: 0.5em 0 1em 0;
+			padding: 0;
+			font-weight: 600;
+			line-height: normal;
+		}
 
 /* Table
 
